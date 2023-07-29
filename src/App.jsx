@@ -37,7 +37,7 @@ const App = () => {
   }
 
   return (
-    <div className="container mb-2 text-bg-dark p-3 position-absolute top-50 start-50 translate-middle w-400 h-100 ">
+    <div className="container mb-2 position-absolute top-50 start-50 translate-middle w-400 h-100 ">
       <h1 className="my-5">Formularios</h1>
       <Formulario addTodo={addTodo} />
       <Todo allTodo={orderTodo(allTodo)} deleteTodo={deleteTodo} updateTodo={updateTodo} />
